@@ -1114,5 +1114,371 @@
     "note": "แก้วใสคู่เสียง + พูด Booking · ผู้พูด F"
    }
   ]
+ },
+ {
+  "id": "19-piano-short",
+  "title": "Piano · Message / Booking",
+  "description": "ดนตรีเดียวกับชุด 11 (เปียโน) เปลี่ยนคำเป็น \"Message!\" / \"Booking!\" ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "19-piano-short/chat_v1_classic_message",
+    "name": "chat_v1_classic_message",
+    "type": "chat",
+    "src": "sounds/19-piano-short/chat_v1_classic_message.mp3",
+    "duration": 0.82,
+    "phrase": "Message!",
+    "note": "เปียโน classic + พูด Message! · ผู้พูด A"
+   },
+   {
+    "id": "19-piano-short/chat_v2_bubbly_message",
+    "name": "chat_v2_bubbly_message",
+    "type": "chat",
+    "src": "sounds/19-piano-short/chat_v2_bubbly_message.mp3",
+    "duration": 0.78,
+    "phrase": "Message!",
+    "note": "เปียโน bubbly + พูด Message! · ผู้พูด B"
+   },
+   {
+    "id": "19-piano-short/chat_v3_soft_message",
+    "name": "chat_v3_soft_message",
+    "type": "chat",
+    "src": "sounds/19-piano-short/chat_v3_soft_message.mp3",
+    "duration": 0.68,
+    "phrase": "Message!",
+    "note": "เปียโน soft + พูด Message! · ผู้พูด C"
+   },
+   {
+    "id": "19-piano-short/booking_v1_rise_booking",
+    "name": "booking_v1_rise_booking",
+    "type": "booking",
+    "src": "sounds/19-piano-short/booking_v1_rise_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "เปียโน rise + พูด Booking! · ผู้พูด A"
+   },
+   {
+    "id": "19-piano-short/booking_v2_bloom_booking",
+    "name": "booking_v2_bloom_booking",
+    "type": "booking",
+    "src": "sounds/19-piano-short/booking_v2_bloom_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "เปียโน bloom + พูด Booking! · ผู้พูด B"
+   },
+   {
+    "id": "19-piano-short/booking_v3_bounce_booking",
+    "name": "booking_v3_bounce_booking",
+    "type": "booking",
+    "src": "sounds/19-piano-short/booking_v3_bounce_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "เปียโน bounce + พูด Booking! · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "20-chime-short",
+  "title": "Chime · Message / Booking",
+  "description": "ดนตรีเดียวกับชุด 12 (ไชม์จาก Samet Go only) เปลี่ยนคำเป็น \"Message!\" / \"Booking!\" ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "20-chime-short/chat_v1_message",
+    "name": "chat_v1_message",
+    "type": "chat",
+    "src": "sounds/20-chime-short/chat_v1_message.mp3",
+    "duration": 0.79,
+    "phrase": "Message!",
+    "note": "ไชม์จากชุด Samet Go only + พูด Message! · ผู้พูด A"
+   },
+   {
+    "id": "20-chime-short/chat_v2_message",
+    "name": "chat_v2_message",
+    "type": "chat",
+    "src": "sounds/20-chime-short/chat_v2_message.mp3",
+    "duration": 0.78,
+    "phrase": "Message!",
+    "note": "ไชม์จากชุด Samet Go only + พูด Message! · ผู้พูด B"
+   },
+   {
+    "id": "20-chime-short/chat_v3_message",
+    "name": "chat_v3_message",
+    "type": "chat",
+    "src": "sounds/20-chime-short/chat_v3_message.mp3",
+    "duration": 0.68,
+    "phrase": "Message!",
+    "note": "ไชม์จากชุด Samet Go only + พูด Message! · ผู้พูด C"
+   },
+   {
+    "id": "20-chime-short/booking_v1_booking",
+    "name": "booking_v1_booking",
+    "type": "booking",
+    "src": "sounds/20-chime-short/booking_v1_booking.mp3",
+    "duration": 0.6,
+    "phrase": "Booking!",
+    "note": "ไชม์จากชุด Samet Go only + พูด Booking! · ผู้พูด A"
+   },
+   {
+    "id": "20-chime-short/booking_v2_booking",
+    "name": "booking_v2_booking",
+    "type": "booking",
+    "src": "sounds/20-chime-short/booking_v2_booking.mp3",
+    "duration": 0.6,
+    "phrase": "Booking!",
+    "note": "ไชม์จากชุด Samet Go only + พูด Booking! · ผู้พูด B"
+   },
+   {
+    "id": "20-chime-short/booking_v3_booking",
+    "name": "booking_v3_booking",
+    "type": "booking",
+    "src": "sounds/20-chime-short/booking_v3_booking.mp3",
+    "duration": 0.59,
+    "phrase": "Booking!",
+    "note": "ไชม์จากชุด Samet Go only + พูด Booking! · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "21-island-short",
+  "title": "Island · Message / Booking",
+  "description": "ดนตรีเดียวกับชุด 13 (แนวทะเล ดนตรีนำ) เปลี่ยนคำเป็น \"Message!\" / \"Booking!\" ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "21-island-short/chat_v1_droplet_message",
+    "name": "chat_v1_droplet_message",
+    "type": "chat",
+    "src": "sounds/21-island-short/chat_v1_droplet_message.mp3",
+    "duration": 0.8,
+    "phrase": "Message!",
+    "note": "หยดน้ำ 2 หยด + พูด Message · ผู้พูด A"
+   },
+   {
+    "id": "21-island-short/chat_v2_kalimba_message",
+    "name": "chat_v2_kalimba_message",
+    "type": "chat",
+    "src": "sounds/21-island-short/chat_v2_kalimba_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "คาลิมบา 2 โน้ต + พูด Message · ผู้พูด B"
+   },
+   {
+    "id": "21-island-short/chat_v3_breeze_message",
+    "name": "chat_v3_breeze_message",
+    "type": "chat",
+    "src": "sounds/21-island-short/chat_v3_breeze_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "ลมทะเล + ขลุ่ย + พูด Message · ผู้พูด C"
+   },
+   {
+    "id": "21-island-short/booking_v1_steelpan_booking",
+    "name": "booking_v1_steelpan_booking",
+    "type": "booking",
+    "src": "sounds/21-island-short/booking_v1_steelpan_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "สตีลแพน 4 โน้ต + คลื่น + พูด Booking · ผู้พูด A"
+   },
+   {
+    "id": "21-island-short/booking_v2_sunrise_booking",
+    "name": "booking_v2_sunrise_booking",
+    "type": "booking",
+    "src": "sounds/21-island-short/booking_v2_sunrise_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "แพดพระอาทิตย์ขึ้น + ระฆังเล็ก + พูด Booking · ผู้พูด B"
+   },
+   {
+    "id": "21-island-short/booking_v3_ukulele_booking",
+    "name": "booking_v3_ukulele_booking",
+    "type": "booking",
+    "src": "sounds/21-island-short/booking_v3_ukulele_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "อูคูเลเล่ 3 คอร์ด + พูด Booking · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "22-short-island",
+  "title": "Message / Booking · Island",
+  "description": "ดนตรีเดียวกับชุด 14 (แนวทะเล เสียงพูดนำ) เปลี่ยนคำเป็น \"Message!\" / \"Booking!\" ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง D–F",
+  "sounds": [
+   {
+    "id": "22-short-island/chat_v1_message_droplet",
+    "name": "chat_v1_message_droplet",
+    "type": "chat",
+    "src": "sounds/22-short-island/chat_v1_message_droplet.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "พูด Message พร้อมหยดน้ำ แล้วหยดปิดท้าย · ผู้พูด D"
+   },
+   {
+    "id": "22-short-island/chat_v2_message_kalimba",
+    "name": "chat_v2_message_kalimba",
+    "type": "chat",
+    "src": "sounds/22-short-island/chat_v2_message_kalimba.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "พูด Message พร้อมคาลิมบา แล้วโน้ตปิดท้าย · ผู้พูด E"
+   },
+   {
+    "id": "22-short-island/chat_v3_message_breeze",
+    "name": "chat_v3_message_breeze",
+    "type": "chat",
+    "src": "sounds/22-short-island/chat_v3_message_breeze.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "ลมทะเลรองใต้ พูด Message แล้วขลุ่ยปิดท้าย · ผู้พูด F"
+   },
+   {
+    "id": "22-short-island/booking_v1_booking_steelpan",
+    "name": "booking_v1_booking_steelpan",
+    "type": "booking",
+    "src": "sounds/22-short-island/booking_v1_booking_steelpan.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "พูด Booking พร้อมสตีลแพน มีคลื่นรองใต้ · ผู้พูด D"
+   },
+   {
+    "id": "22-short-island/booking_v2_booking_sunrise",
+    "name": "booking_v2_booking_sunrise",
+    "type": "booking",
+    "src": "sounds/22-short-island/booking_v2_booking_sunrise.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "แพดรองใต้ พูด Booking แล้วระฆังเล็กประกาย · ผู้พูด E"
+   },
+   {
+    "id": "22-short-island/booking_v3_booking_ukulele",
+    "name": "booking_v3_booking_ukulele",
+    "type": "booking",
+    "src": "sounds/22-short-island/booking_v3_booking_ukulele.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "อูคูเลเล่ตี 2 ที พูด Booking แล้วตีปิด · ผู้พูด F"
+   }
+  ]
+ },
+ {
+  "id": "23-epiano-short",
+  "title": "Electric piano · Message / Booking",
+  "description": "ดนตรีเดียวกับชุด 15 (เปียโนไฟฟ้า lo-fi) เปลี่ยนคำเป็น \"Message!\" / \"Booking!\" ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "23-epiano-short/chat_v1_soft_message",
+    "name": "chat_v1_soft_message",
+    "type": "chat",
+    "src": "sounds/23-epiano-short/chat_v1_soft_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "เปียโนไฟฟ้า 2 โน้ตนุ่ม มีเบสรอง · ผู้พูด A"
+   },
+   {
+    "id": "23-epiano-short/chat_v2_warm_message",
+    "name": "chat_v2_warm_message",
+    "type": "chat",
+    "src": "sounds/23-epiano-short/chat_v2_warm_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "เปียโนไฟฟ้าคู่เสียง G-E แล้วไล่ขึ้น A · ผู้พูด B"
+   },
+   {
+    "id": "23-epiano-short/chat_v3_jazzy_message",
+    "name": "chat_v3_jazzy_message",
+    "type": "chat",
+    "src": "sounds/23-epiano-short/chat_v3_jazzy_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "คอร์ด Cmaj7 รูดเร็ว โทนแจ๊ส · ผู้พูด C"
+   },
+   {
+    "id": "23-epiano-short/booking_v1_progression_booking",
+    "name": "booking_v1_progression_booking",
+    "type": "booking",
+    "src": "sounds/23-epiano-short/booking_v1_progression_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "Cmaj7 → Fmaj7 แล้วเมโลดี้ปิด G-C · ผู้พูด A"
+   },
+   {
+    "id": "23-epiano-short/booking_v2_rise_booking",
+    "name": "booking_v2_rise_booking",
+    "type": "booking",
+    "src": "sounds/23-epiano-short/booking_v2_rise_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "โน้ตไล่ขึ้น C-E-G-C แล้วลงด้วยคอร์ด Cmaj9 · ผู้พูด B"
+   },
+   {
+    "id": "23-epiano-short/booking_v3_confirm_booking",
+    "name": "booking_v3_confirm_booking",
+    "type": "booking",
+    "src": "sounds/23-epiano-short/booking_v3_confirm_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "II-V-I: Dm7 → G7 → Cmaj7 แบบยืนยัน · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "24-musicbox-short",
+  "title": "Music box · Message / Booking",
+  "description": "ดนตรีเดียวกับชุด 16 (กล่องดนตรี) เปลี่ยนคำเป็น \"Message!\" / \"Booking!\" ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง D–F",
+  "sounds": [
+   {
+    "id": "24-musicbox-short/chat_v1_duo_message",
+    "name": "chat_v1_duo_message",
+    "type": "chat",
+    "src": "sounds/24-musicbox-short/chat_v1_duo_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "กล่องดนตรี 2 โน้ต C-E · ผู้พูด D"
+   },
+   {
+    "id": "24-musicbox-short/chat_v2_trill_message",
+    "name": "chat_v2_trill_message",
+    "type": "chat",
+    "src": "sounds/24-musicbox-short/chat_v2_trill_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "กล่องดนตรีรัว G-E-G · ผู้พูด E"
+   },
+   {
+    "id": "24-musicbox-short/chat_v3_descend_message",
+    "name": "chat_v3_descend_message",
+    "type": "chat",
+    "src": "sounds/24-musicbox-short/chat_v3_descend_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "กล่องดนตรีไล่ลง E-D-C · ผู้พูด F"
+   },
+   {
+    "id": "24-musicbox-short/booking_v1_waltz_booking",
+    "name": "booking_v1_waltz_booking",
+    "type": "booking",
+    "src": "sounds/24-musicbox-short/booking_v1_waltz_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "กล่องดนตรีไล่ขึ้น C-E-G-C มีเซเลสตาคู่ จบด้วยคู่เสียงสูง · ผู้พูด D"
+   },
+   {
+    "id": "24-musicbox-short/booking_v2_lullaby_booking",
+    "name": "booking_v2_lullaby_booking",
+    "type": "booking",
+    "src": "sounds/24-musicbox-short/booking_v2_lullaby_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "ทำนองกล่อมเด็ก 6 โน้ต มีแพดเบา ๆ รอง · ผู้พูด E"
+   },
+   {
+    "id": "24-musicbox-short/booking_v3_sparkle_booking",
+    "name": "booking_v3_sparkle_booking",
+    "type": "booking",
+    "src": "sounds/24-musicbox-short/booking_v3_sparkle_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "อาร์เปจโจขึ้นเร็ว 5 โน้ต มีประกายสูง จบด้วยคอร์ด · ผู้พูด F"
+   }
+  ]
  }
 ]
