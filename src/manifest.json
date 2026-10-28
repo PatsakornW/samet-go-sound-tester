@@ -992,5 +992,127 @@
     "note": "อาร์เปจโจขึ้นเร็ว 5 โน้ต มีประกายสูง จบด้วยคอร์ด · ผู้พูด F"
    }
   ]
+ },
+ {
+  "id": "17-short-words",
+  "title": "Message / Booking",
+  "description": "พูดสั้น ๆ แค่ \"Message!\" / \"Booking!\" บนดนตรีสั้น ๆ (คาลิมบา เปียโนไฟฟ้า กล่องดนตรี) ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "17-short-words/chat_v1_kalimba_message",
+    "name": "chat_v1_kalimba_message",
+    "type": "chat",
+    "src": "sounds/17-short-words/chat_v1_kalimba_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "คาลิมบาโน้ตเดียว + พูด Message · ผู้พูด A"
+   },
+   {
+    "id": "17-short-words/chat_v2_epiano_message",
+    "name": "chat_v2_epiano_message",
+    "type": "chat",
+    "src": "sounds/17-short-words/chat_v2_epiano_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "เปียโนไฟฟ้าโน้ตเดียว + พูด Message · ผู้พูด B"
+   },
+   {
+    "id": "17-short-words/chat_v3_musicbox_message",
+    "name": "chat_v3_musicbox_message",
+    "type": "chat",
+    "src": "sounds/17-short-words/chat_v3_musicbox_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "กล่องดนตรีโน้ตเดียว + พูด Message · ผู้พูด C"
+   },
+   {
+    "id": "17-short-words/booking_v1_kalimba_booking",
+    "name": "booking_v1_kalimba_booking",
+    "type": "booking",
+    "src": "sounds/17-short-words/booking_v1_kalimba_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "คาลิมบา 2 โน้ตขึ้น + พูด Booking · ผู้พูด A"
+   },
+   {
+    "id": "17-short-words/booking_v2_epiano_booking",
+    "name": "booking_v2_epiano_booking",
+    "type": "booking",
+    "src": "sounds/17-short-words/booking_v2_epiano_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "เปียโนไฟฟ้าคอร์ด Cmaj7 + พูด Booking · ผู้พูด B"
+   },
+   {
+    "id": "17-short-words/booking_v3_musicbox_booking",
+    "name": "booking_v3_musicbox_booking",
+    "type": "booking",
+    "src": "sounds/17-short-words/booking_v3_musicbox_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "กล่องดนตรี 3 โน้ตขึ้น + พูด Booking · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "18-short-words-island",
+  "title": "Message / Booking · Island",
+  "description": "พูดสั้น ๆ แค่ \"Message!\" / \"Booking!\" บนเสียงแนวทะเลสั้น ๆ (หยดน้ำ สตีลแพน แก้ว) ทุกไฟล์ไม่เกิน 1 วิ ผู้พูดหญิง D–F",
+  "sounds": [
+   {
+    "id": "18-short-words-island/chat_v1_droplet_message",
+    "name": "chat_v1_droplet_message",
+    "type": "chat",
+    "src": "sounds/18-short-words-island/chat_v1_droplet_message.mp3",
+    "duration": 0.73,
+    "phrase": "Message!",
+    "note": "หยดน้ำหยดเดียว + พูด Message · ผู้พูด D"
+   },
+   {
+    "id": "18-short-words-island/chat_v2_steelpan_message",
+    "name": "chat_v2_steelpan_message",
+    "type": "chat",
+    "src": "sounds/18-short-words-island/chat_v2_steelpan_message.mp3",
+    "duration": 1,
+    "phrase": "Message!",
+    "note": "สตีลแพนโน้ตเดียว + พูด Message · ผู้พูด E"
+   },
+   {
+    "id": "18-short-words-island/chat_v3_glass_message",
+    "name": "chat_v3_glass_message",
+    "type": "chat",
+    "src": "sounds/18-short-words-island/chat_v3_glass_message.mp3",
+    "duration": 0.98,
+    "phrase": "Message!",
+    "note": "แก้วใสโน้ตเดียว + พูด Message · ผู้พูด F"
+   },
+   {
+    "id": "18-short-words-island/booking_v1_droplet_booking",
+    "name": "booking_v1_droplet_booking",
+    "type": "booking",
+    "src": "sounds/18-short-words-island/booking_v1_droplet_booking.mp3",
+    "duration": 0.86,
+    "phrase": "Booking!",
+    "note": "หยดน้ำ 2 หยด + พูด Booking · ผู้พูด D"
+   },
+   {
+    "id": "18-short-words-island/booking_v2_steelpan_booking",
+    "name": "booking_v2_steelpan_booking",
+    "type": "booking",
+    "src": "sounds/18-short-words-island/booking_v2_steelpan_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "สตีลแพน 2 โน้ตขึ้น + พูด Booking · ผู้พูด E"
+   },
+   {
+    "id": "18-short-words-island/booking_v3_glass_booking",
+    "name": "booking_v3_glass_booking",
+    "type": "booking",
+    "src": "sounds/18-short-words-island/booking_v3_glass_booking.mp3",
+    "duration": 1,
+    "phrase": "Booking!",
+    "note": "แก้วใสคู่เสียง + พูด Booking · ผู้พูด F"
+   }
+  ]
  }
 ]
