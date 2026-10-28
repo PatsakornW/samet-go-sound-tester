@@ -626,5 +626,371 @@
     "note": "อูคูเลเล่ตี 1 ที พูด Samet Go แล้วตีปิด 2 ที · ผู้พูด F"
    }
   ]
+ },
+ {
+  "id": "11-piano-phrases",
+  "title": "Piano · New message / New booking",
+  "description": "เปียโนชุดเดิม (จากชุด Piano ที่ใช้ในชุด Samet Go phrases) + พูด \"New message!\" / \"New booking!\" ขึ้นพร้อมกัน ลดเสียงดนตรีเล็กน้อยตอนพูด ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "11-piano-phrases/chat_v1_classic_newmessage",
+    "name": "chat_v1_classic_newmessage",
+    "type": "chat",
+    "src": "sounds/11-piano-phrases/chat_v1_classic_newmessage.mp3",
+    "duration": 0.92,
+    "phrase": "New message!",
+    "note": "เปียโน classic + พูด New message! · ผู้พูด A"
+   },
+   {
+    "id": "11-piano-phrases/chat_v2_bubbly_newmessage",
+    "name": "chat_v2_bubbly_newmessage",
+    "type": "chat",
+    "src": "sounds/11-piano-phrases/chat_v2_bubbly_newmessage.mp3",
+    "duration": 0.93,
+    "phrase": "New message!",
+    "note": "เปียโน bubbly + พูด New message! · ผู้พูด B"
+   },
+   {
+    "id": "11-piano-phrases/chat_v3_soft_newmessage",
+    "name": "chat_v3_soft_newmessage",
+    "type": "chat",
+    "src": "sounds/11-piano-phrases/chat_v3_soft_newmessage.mp3",
+    "duration": 0.92,
+    "phrase": "New message!",
+    "note": "เปียโน soft + พูด New message! · ผู้พูด C"
+   },
+   {
+    "id": "11-piano-phrases/booking_v1_rise_newbooking",
+    "name": "booking_v1_rise_newbooking",
+    "type": "booking",
+    "src": "sounds/11-piano-phrases/booking_v1_rise_newbooking.mp3",
+    "duration": 1.25,
+    "phrase": "New booking!",
+    "note": "เปียโน rise + พูด New booking! · ผู้พูด A"
+   },
+   {
+    "id": "11-piano-phrases/booking_v2_bloom_newbooking",
+    "name": "booking_v2_bloom_newbooking",
+    "type": "booking",
+    "src": "sounds/11-piano-phrases/booking_v2_bloom_newbooking.mp3",
+    "duration": 1.04,
+    "phrase": "New booking!",
+    "note": "เปียโน bloom + พูด New booking! · ผู้พูด B"
+   },
+   {
+    "id": "11-piano-phrases/booking_v3_bounce_newbooking",
+    "name": "booking_v3_bounce_newbooking",
+    "type": "booking",
+    "src": "sounds/11-piano-phrases/booking_v3_bounce_newbooking.mp3",
+    "duration": 1.05,
+    "phrase": "New booking!",
+    "note": "เปียโน bounce + พูด New booking! · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "12-chime-phrases",
+  "title": "Chime · New message / New booking",
+  "description": "ไชม์เดิมจากชุด Samet Go only + พูด \"New message!\" / \"New booking!\" ขึ้นพร้อมกัน ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "12-chime-phrases/chat_v1_newmessage",
+    "name": "chat_v1_newmessage",
+    "type": "chat",
+    "src": "sounds/12-chime-phrases/chat_v1_newmessage.mp3",
+    "duration": 0.92,
+    "phrase": "New message!",
+    "note": "ไชม์จากชุด Samet Go only + พูด New message! · ผู้พูด A"
+   },
+   {
+    "id": "12-chime-phrases/chat_v2_newmessage",
+    "name": "chat_v2_newmessage",
+    "type": "chat",
+    "src": "sounds/12-chime-phrases/chat_v2_newmessage.mp3",
+    "duration": 0.93,
+    "phrase": "New message!",
+    "note": "ไชม์จากชุด Samet Go only + พูด New message! · ผู้พูด B"
+   },
+   {
+    "id": "12-chime-phrases/chat_v3_newmessage",
+    "name": "chat_v3_newmessage",
+    "type": "chat",
+    "src": "sounds/12-chime-phrases/chat_v3_newmessage.mp3",
+    "duration": 0.92,
+    "phrase": "New message!",
+    "note": "ไชม์จากชุด Samet Go only + พูด New message! · ผู้พูด C"
+   },
+   {
+    "id": "12-chime-phrases/booking_v1_newbooking",
+    "name": "booking_v1_newbooking",
+    "type": "booking",
+    "src": "sounds/12-chime-phrases/booking_v1_newbooking.mp3",
+    "duration": 0.88,
+    "phrase": "New booking!",
+    "note": "ไชม์จากชุด Samet Go only + พูด New booking! · ผู้พูด A"
+   },
+   {
+    "id": "12-chime-phrases/booking_v2_newbooking",
+    "name": "booking_v2_newbooking",
+    "type": "booking",
+    "src": "sounds/12-chime-phrases/booking_v2_newbooking.mp3",
+    "duration": 0.8,
+    "phrase": "New booking!",
+    "note": "ไชม์จากชุด Samet Go only + พูด New booking! · ผู้พูด B"
+   },
+   {
+    "id": "12-chime-phrases/booking_v3_newbooking",
+    "name": "booking_v3_newbooking",
+    "type": "booking",
+    "src": "sounds/12-chime-phrases/booking_v3_newbooking.mp3",
+    "duration": 0.8,
+    "phrase": "New booking!",
+    "note": "ไชม์จากชุด Samet Go only + พูด New booking! · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "13-island-phrases",
+  "title": "Island · New message / New booking",
+  "description": "ดนตรีแนวทะเลชุดเดิม (Island + Samet Go) เปลี่ยนคำเป็น \"New message!\" / \"New booking!\" ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "13-island-phrases/chat_v1_droplet_newmessage",
+    "name": "chat_v1_droplet_newmessage",
+    "type": "chat",
+    "src": "sounds/13-island-phrases/chat_v1_droplet_newmessage.mp3",
+    "duration": 0.91,
+    "phrase": "New message!",
+    "note": "หยดน้ำ 2 หยด + พูด New message · ผู้พูด A"
+   },
+   {
+    "id": "13-island-phrases/chat_v2_kalimba_newmessage",
+    "name": "chat_v2_kalimba_newmessage",
+    "type": "chat",
+    "src": "sounds/13-island-phrases/chat_v2_kalimba_newmessage.mp3",
+    "duration": 1.49,
+    "phrase": "New message!",
+    "note": "คาลิมบา 2 โน้ต + พูด New message · ผู้พูด B"
+   },
+   {
+    "id": "13-island-phrases/chat_v3_breeze_newmessage",
+    "name": "chat_v3_breeze_newmessage",
+    "type": "chat",
+    "src": "sounds/13-island-phrases/chat_v3_breeze_newmessage.mp3",
+    "duration": 1.78,
+    "phrase": "New message!",
+    "note": "ลมทะเล + ขลุ่ย + พูด New message · ผู้พูด C"
+   },
+   {
+    "id": "13-island-phrases/booking_v1_steelpan_newbooking",
+    "name": "booking_v1_steelpan_newbooking",
+    "type": "booking",
+    "src": "sounds/13-island-phrases/booking_v1_steelpan_newbooking.mp3",
+    "duration": 2.31,
+    "phrase": "New booking!",
+    "note": "สตีลแพน 4 โน้ต + คลื่น + พูด New booking · ผู้พูด A"
+   },
+   {
+    "id": "13-island-phrases/booking_v2_sunrise_newbooking",
+    "name": "booking_v2_sunrise_newbooking",
+    "type": "booking",
+    "src": "sounds/13-island-phrases/booking_v2_sunrise_newbooking.mp3",
+    "duration": 2.99,
+    "phrase": "New booking!",
+    "note": "แพดพระอาทิตย์ขึ้น + ระฆังเล็ก + พูด New booking · ผู้พูด B"
+   },
+   {
+    "id": "13-island-phrases/booking_v3_ukulele_newbooking",
+    "name": "booking_v3_ukulele_newbooking",
+    "type": "booking",
+    "src": "sounds/13-island-phrases/booking_v3_ukulele_newbooking.mp3",
+    "duration": 2.56,
+    "phrase": "New booking!",
+    "note": "อูคูเลเล่ 3 คอร์ด + พูด New booking · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "14-phrases-island",
+  "title": "New message / New booking · Island",
+  "description": "เสียงพูดนำแล้วเครื่องดนตรีแนวทะเลรับ (แบบชุด Samet Go + Island) เปลี่ยนคำเป็น \"New message!\" / \"New booking!\" ผู้พูดหญิง D–F",
+  "sounds": [
+   {
+    "id": "14-phrases-island/chat_v1_newmessage_droplet",
+    "name": "chat_v1_newmessage_droplet",
+    "type": "chat",
+    "src": "sounds/14-phrases-island/chat_v1_newmessage_droplet.mp3",
+    "duration": 1.47,
+    "phrase": "New message!",
+    "note": "พูด New message พร้อมหยดน้ำ แล้วหยดปิดท้าย · ผู้พูด D"
+   },
+   {
+    "id": "14-phrases-island/chat_v2_newmessage_kalimba",
+    "name": "chat_v2_newmessage_kalimba",
+    "type": "chat",
+    "src": "sounds/14-phrases-island/chat_v2_newmessage_kalimba.mp3",
+    "duration": 2.19,
+    "phrase": "New message!",
+    "note": "พูด New message พร้อมคาลิมบา แล้วโน้ตปิดท้าย · ผู้พูด E"
+   },
+   {
+    "id": "14-phrases-island/chat_v3_newmessage_breeze",
+    "name": "chat_v3_newmessage_breeze",
+    "type": "chat",
+    "src": "sounds/14-phrases-island/chat_v3_newmessage_breeze.mp3",
+    "duration": 2.48,
+    "phrase": "New message!",
+    "note": "ลมทะเลรองใต้ พูด New message แล้วขลุ่ยปิดท้าย · ผู้พูด F"
+   },
+   {
+    "id": "14-phrases-island/booking_v1_newbooking_steelpan",
+    "name": "booking_v1_newbooking_steelpan",
+    "type": "booking",
+    "src": "sounds/14-phrases-island/booking_v1_newbooking_steelpan.mp3",
+    "duration": 2.76,
+    "phrase": "New booking!",
+    "note": "พูด New booking พร้อมสตีลแพน มีคลื่นรองใต้ · ผู้พูด D"
+   },
+   {
+    "id": "14-phrases-island/booking_v2_newbooking_sunrise",
+    "name": "booking_v2_newbooking_sunrise",
+    "type": "booking",
+    "src": "sounds/14-phrases-island/booking_v2_newbooking_sunrise.mp3",
+    "duration": 3.7,
+    "phrase": "New booking!",
+    "note": "แพดรองใต้ พูด New booking แล้วระฆังเล็กประกาย · ผู้พูด E"
+   },
+   {
+    "id": "14-phrases-island/booking_v3_newbooking_ukulele",
+    "name": "booking_v3_newbooking_ukulele",
+    "type": "booking",
+    "src": "sounds/14-phrases-island/booking_v3_newbooking_ukulele.mp3",
+    "duration": 2.81,
+    "phrase": "New booking!",
+    "note": "อูคูเลเล่ตี 2 ที พูด New booking แล้วตีปิด · ผู้พูด F"
+   }
+  ]
+ },
+ {
+  "id": "15-epiano-phrases",
+  "title": "Electric piano · lo-fi",
+  "description": "เปียโนไฟฟ้าโทนอุ่น (Rhodes) มีเบสรอง + พูด \"New message!\" / \"New booking!\" ขึ้นพร้อมกัน ลดเสียงดนตรีเล็กน้อยตอนพูด ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "15-epiano-phrases/chat_v1_soft_newmessage",
+    "name": "chat_v1_soft_newmessage",
+    "type": "chat",
+    "src": "sounds/15-epiano-phrases/chat_v1_soft_newmessage.mp3",
+    "duration": 1.55,
+    "phrase": "New message!",
+    "note": "เปียโนไฟฟ้า 2 โน้ตนุ่ม มีเบสรอง · ผู้พูด A"
+   },
+   {
+    "id": "15-epiano-phrases/chat_v2_warm_newmessage",
+    "name": "chat_v2_warm_newmessage",
+    "type": "chat",
+    "src": "sounds/15-epiano-phrases/chat_v2_warm_newmessage.mp3",
+    "duration": 1.65,
+    "phrase": "New message!",
+    "note": "เปียโนไฟฟ้าคู่เสียง G-E แล้วไล่ขึ้น A · ผู้พูด B"
+   },
+   {
+    "id": "15-epiano-phrases/chat_v3_jazzy_newmessage",
+    "name": "chat_v3_jazzy_newmessage",
+    "type": "chat",
+    "src": "sounds/15-epiano-phrases/chat_v3_jazzy_newmessage.mp3",
+    "duration": 1.5,
+    "phrase": "New message!",
+    "note": "คอร์ด Cmaj7 รูดเร็ว โทนแจ๊ส · ผู้พูด C"
+   },
+   {
+    "id": "15-epiano-phrases/booking_v1_progression_newbooking",
+    "name": "booking_v1_progression_newbooking",
+    "type": "booking",
+    "src": "sounds/15-epiano-phrases/booking_v1_progression_newbooking.mp3",
+    "duration": 2.25,
+    "phrase": "New booking!",
+    "note": "Cmaj7 → Fmaj7 แล้วเมโลดี้ปิด G-C · ผู้พูด A"
+   },
+   {
+    "id": "15-epiano-phrases/booking_v2_rise_newbooking",
+    "name": "booking_v2_rise_newbooking",
+    "type": "booking",
+    "src": "sounds/15-epiano-phrases/booking_v2_rise_newbooking.mp3",
+    "duration": 2.35,
+    "phrase": "New booking!",
+    "note": "โน้ตไล่ขึ้น C-E-G-C แล้วลงด้วยคอร์ด Cmaj9 · ผู้พูด B"
+   },
+   {
+    "id": "15-epiano-phrases/booking_v3_confirm_newbooking",
+    "name": "booking_v3_confirm_newbooking",
+    "type": "booking",
+    "src": "sounds/15-epiano-phrases/booking_v3_confirm_newbooking.mp3",
+    "duration": 2.21,
+    "phrase": "New booking!",
+    "note": "II-V-I: Dm7 → G7 → Cmaj7 แบบยืนยัน · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "16-musicbox-phrases",
+  "title": "Music box",
+  "description": "กล่องดนตรีใสละเอียด มีเซเลสตาและแพดเบา ๆ + พูด \"New message!\" / \"New booking!\" ขึ้นพร้อมกัน ผู้พูดหญิง D–F",
+  "sounds": [
+   {
+    "id": "16-musicbox-phrases/chat_v1_duo_newmessage",
+    "name": "chat_v1_duo_newmessage",
+    "type": "chat",
+    "src": "sounds/16-musicbox-phrases/chat_v1_duo_newmessage.mp3",
+    "duration": 1.38,
+    "phrase": "New message!",
+    "note": "กล่องดนตรี 2 โน้ต C-E · ผู้พูด D"
+   },
+   {
+    "id": "16-musicbox-phrases/chat_v2_trill_newmessage",
+    "name": "chat_v2_trill_newmessage",
+    "type": "chat",
+    "src": "sounds/16-musicbox-phrases/chat_v2_trill_newmessage.mp3",
+    "duration": 1.34,
+    "phrase": "New message!",
+    "note": "กล่องดนตรีรัว G-E-G · ผู้พูด E"
+   },
+   {
+    "id": "16-musicbox-phrases/chat_v3_descend_newmessage",
+    "name": "chat_v3_descend_newmessage",
+    "type": "chat",
+    "src": "sounds/16-musicbox-phrases/chat_v3_descend_newmessage.mp3",
+    "duration": 1.52,
+    "phrase": "New message!",
+    "note": "กล่องดนตรีไล่ลง E-D-C · ผู้พูด F"
+   },
+   {
+    "id": "16-musicbox-phrases/booking_v1_waltz_newbooking",
+    "name": "booking_v1_waltz_newbooking",
+    "type": "booking",
+    "src": "sounds/16-musicbox-phrases/booking_v1_waltz_newbooking.mp3",
+    "duration": 2.19,
+    "phrase": "New booking!",
+    "note": "กล่องดนตรีไล่ขึ้น C-E-G-C มีเซเลสตาคู่ จบด้วยคู่เสียงสูง · ผู้พูด D"
+   },
+   {
+    "id": "16-musicbox-phrases/booking_v2_lullaby_newbooking",
+    "name": "booking_v2_lullaby_newbooking",
+    "type": "booking",
+    "src": "sounds/16-musicbox-phrases/booking_v2_lullaby_newbooking.mp3",
+    "duration": 2.23,
+    "phrase": "New booking!",
+    "note": "ทำนองกล่อมเด็ก 6 โน้ต มีแพดเบา ๆ รอง · ผู้พูด E"
+   },
+   {
+    "id": "16-musicbox-phrases/booking_v3_sparkle_newbooking",
+    "name": "booking_v3_sparkle_newbooking",
+    "type": "booking",
+    "src": "sounds/16-musicbox-phrases/booking_v3_sparkle_newbooking.mp3",
+    "duration": 2.23,
+    "phrase": "New booking!",
+    "note": "อาร์เปจโจขึ้นเร็ว 5 โน้ต มีประกายสูง จบด้วยคอร์ด · ผู้พูด F"
+   }
+  ]
  }
 ]
