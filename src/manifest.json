@@ -1,0 +1,526 @@
+[
+ {
+  "id": "01-synth",
+  "title": "Synth chime",
+  "description": "เสียงสังเคราะห์ชุดแรก อิงสไตล์ pitch-glide ของเสียงอ้างอิง",
+  "sounds": [
+   {
+    "id": "01-synth/chat_v1_classic",
+    "name": "chat_v1_classic",
+    "type": "chat",
+    "src": "sounds/01-synth/chat_v1_classic.mp3",
+    "duration": 0.78,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "01-synth/chat_v2_bubbly",
+    "name": "chat_v2_bubbly",
+    "type": "chat",
+    "src": "sounds/01-synth/chat_v2_bubbly.mp3",
+    "duration": 0.73,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "01-synth/chat_v3_soft",
+    "name": "chat_v3_soft",
+    "type": "chat",
+    "src": "sounds/01-synth/chat_v3_soft.mp3",
+    "duration": 0.78,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "01-synth/booking_v1_rise",
+    "name": "booking_v1_rise",
+    "type": "booking",
+    "src": "sounds/01-synth/booking_v1_rise.mp3",
+    "duration": 1.38,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "01-synth/booking_v2_bloom",
+    "name": "booking_v2_bloom",
+    "type": "booking",
+    "src": "sounds/01-synth/booking_v2_bloom.mp3",
+    "duration": 1.49,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "01-synth/booking_v3_bounce",
+    "name": "booking_v3_bounce",
+    "type": "booking",
+    "src": "sounds/01-synth/booking_v3_bounce.mp3",
+    "duration": 1.49,
+    "phrase": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "02-synth-short-low",
+  "title": "Synth · short & low",
+  "description": "สั้นลง 30% และโทนต่ำลง 5 semitone",
+  "sounds": [
+   {
+    "id": "02-synth-short-low/chat_v1_classic",
+    "name": "chat_v1_classic",
+    "type": "chat",
+    "src": "sounds/02-synth-short-low/chat_v1_classic.mp3",
+    "duration": 0.57,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "02-synth-short-low/chat_v2_bubbly",
+    "name": "chat_v2_bubbly",
+    "type": "chat",
+    "src": "sounds/02-synth-short-low/chat_v2_bubbly.mp3",
+    "duration": 0.55,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "02-synth-short-low/chat_v3_soft",
+    "name": "chat_v3_soft",
+    "type": "chat",
+    "src": "sounds/02-synth-short-low/chat_v3_soft.mp3",
+    "duration": 0.57,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "02-synth-short-low/booking_v1_rise",
+    "name": "booking_v1_rise",
+    "type": "booking",
+    "src": "sounds/02-synth-short-low/booking_v1_rise.mp3",
+    "duration": 0.97,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "02-synth-short-low/booking_v2_bloom",
+    "name": "booking_v2_bloom",
+    "type": "booking",
+    "src": "sounds/02-synth-short-low/booking_v2_bloom.mp3",
+    "duration": 1.02,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "02-synth-short-low/booking_v3_bounce",
+    "name": "booking_v3_bounce",
+    "type": "booking",
+    "src": "sounds/02-synth-short-low/booking_v3_bounce.mp3",
+    "duration": 1.02,
+    "phrase": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "03-piano",
+  "title": "Piano",
+  "description": "ทำนองเปียโน ความยาวปกติ",
+  "sounds": [
+   {
+    "id": "03-piano/chat_v1_classic",
+    "name": "chat_v1_classic",
+    "type": "chat",
+    "src": "sounds/03-piano/chat_v1_classic.mp3",
+    "duration": 0.94,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "03-piano/chat_v2_bubbly",
+    "name": "chat_v2_bubbly",
+    "type": "chat",
+    "src": "sounds/03-piano/chat_v2_bubbly.mp3",
+    "duration": 0.94,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "03-piano/chat_v3_soft",
+    "name": "chat_v3_soft",
+    "type": "chat",
+    "src": "sounds/03-piano/chat_v3_soft.mp3",
+    "duration": 0.94,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "03-piano/booking_v1_rise",
+    "name": "booking_v1_rise",
+    "type": "booking",
+    "src": "sounds/03-piano/booking_v1_rise.mp3",
+    "duration": 1.54,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "03-piano/booking_v2_bloom",
+    "name": "booking_v2_bloom",
+    "type": "booking",
+    "src": "sounds/03-piano/booking_v2_bloom.mp3",
+    "duration": 1.65,
+    "phrase": "",
+    "note": ""
+   },
+   {
+    "id": "03-piano/booking_v3_bounce",
+    "name": "booking_v3_bounce",
+    "type": "booking",
+    "src": "sounds/03-piano/booking_v3_bounce.mp3",
+    "duration": 1.54,
+    "phrase": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "04-piano-voice",
+  "title": "Piano + voice",
+  "description": "เปียโนตามด้วยเสียงพูด (ชาย/หญิง) และตัวอย่างเสียงไทยแบบหุ่นยนต์",
+  "sounds": [
+   {
+    "id": "04-piano-voice/TH_sample_chat_robotvoice",
+    "name": "TH_sample_chat_robotvoice",
+    "type": "chat",
+    "src": "sounds/04-piano-voice/TH_sample_chat_robotvoice.mp3",
+    "duration": 2.19,
+    "phrase": "มีข้อความใหม่",
+    "note": "ตัวอย่างเท่านั้น (เสียงหุ่นยนต์)"
+   },
+   {
+    "id": "04-piano-voice/chat_voice_v1_newmessage",
+    "name": "chat_voice_v1_newmessage",
+    "type": "chat",
+    "src": "sounds/04-piano-voice/chat_voice_v1_newmessage.mp3",
+    "duration": 1.54,
+    "phrase": "New message",
+    "note": ""
+   },
+   {
+    "id": "04-piano-voice/chat_voice_v2_youhave",
+    "name": "chat_voice_v2_youhave",
+    "type": "chat",
+    "src": "sounds/04-piano-voice/chat_voice_v2_youhave.mp3",
+    "duration": 1.7,
+    "phrase": "You have a new message",
+    "note": ""
+   },
+   {
+    "id": "04-piano-voice/chat_voice_v3_soft",
+    "name": "chat_voice_v3_soft",
+    "type": "chat",
+    "src": "sounds/04-piano-voice/chat_voice_v3_soft.mp3",
+    "duration": 1.7,
+    "phrase": "New message",
+    "note": ""
+   },
+   {
+    "id": "04-piano-voice/TH_sample_booking_robotvoice",
+    "name": "TH_sample_booking_robotvoice",
+    "type": "booking",
+    "src": "sounds/04-piano-voice/TH_sample_booking_robotvoice.mp3",
+    "duration": 2.51,
+    "phrase": "มีการจองใหม่",
+    "note": "ตัวอย่างเท่านั้น (เสียงหุ่นยนต์)"
+   },
+   {
+    "id": "04-piano-voice/booking_voice_v1_newbooking",
+    "name": "booking_voice_v1_newbooking",
+    "type": "booking",
+    "src": "sounds/04-piano-voice/booking_voice_v1_newbooking.mp3",
+    "duration": 1.7,
+    "phrase": "New booking",
+    "note": ""
+   },
+   {
+    "id": "04-piano-voice/booking_voice_v2_youhave",
+    "name": "booking_voice_v2_youhave",
+    "type": "booking",
+    "src": "sounds/04-piano-voice/booking_voice_v2_youhave.mp3",
+    "duration": 1.91,
+    "phrase": "You have a new booking",
+    "note": ""
+   },
+   {
+    "id": "04-piano-voice/booking_voice_v3_confirmed",
+    "name": "booking_voice_v3_confirmed",
+    "type": "booking",
+    "src": "sounds/04-piano-voice/booking_voice_v3_confirmed.mp3",
+    "duration": 2.09,
+    "phrase": "Booking confirmed",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "05-piano-voice-bright",
+  "title": "Piano + bright female voice",
+  "description": "เสียงหญิง พูดเร็วและสดใส เริ่มพร้อมเปียโน",
+  "sounds": [
+   {
+    "id": "05-piano-voice-bright/chat_voice_v1_newmessage",
+    "name": "chat_voice_v1_newmessage",
+    "type": "chat",
+    "src": "sounds/05-piano-voice-bright/chat_voice_v1_newmessage.mp3",
+    "duration": 1.04,
+    "phrase": "New message!",
+    "note": ""
+   },
+   {
+    "id": "05-piano-voice-bright/chat_voice_v2_youhave",
+    "name": "chat_voice_v2_youhave",
+    "type": "chat",
+    "src": "sounds/05-piano-voice-bright/chat_voice_v2_youhave.mp3",
+    "duration": 1.41,
+    "phrase": "You have a new message!",
+    "note": ""
+   },
+   {
+    "id": "05-piano-voice-bright/chat_voice_v3_hey",
+    "name": "chat_voice_v3_hey",
+    "type": "chat",
+    "src": "sounds/05-piano-voice-bright/chat_voice_v3_hey.mp3",
+    "duration": 1.36,
+    "phrase": "Hey, new message!",
+    "note": ""
+   },
+   {
+    "id": "05-piano-voice-bright/booking_voice_v1_newbooking",
+    "name": "booking_voice_v1_newbooking",
+    "type": "booking",
+    "src": "sounds/05-piano-voice-bright/booking_voice_v1_newbooking.mp3",
+    "duration": 0.97,
+    "phrase": "New booking!",
+    "note": ""
+   },
+   {
+    "id": "05-piano-voice-bright/booking_voice_v2_youhave",
+    "name": "booking_voice_v2_youhave",
+    "type": "booking",
+    "src": "sounds/05-piano-voice-bright/booking_voice_v2_youhave.mp3",
+    "duration": 1.33,
+    "phrase": "You have a new message!",
+    "note": ""
+   },
+   {
+    "id": "05-piano-voice-bright/booking_voice_v3_confirmed",
+    "name": "booking_voice_v3_confirmed",
+    "type": "booking",
+    "src": "sounds/05-piano-voice-bright/booking_voice_v3_confirmed.mp3",
+    "duration": 1.23,
+    "phrase": "Booking confirmed!",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "06-sametgo-phrases",
+  "title": "Samet Go phrases",
+  "description": "ประโยคที่มีคำว่า Samet Go พร้อม ducking เปียโนตอนพูด",
+  "sounds": [
+   {
+    "id": "06-sametgo-phrases/chat_voice_v1_sametgo",
+    "name": "chat_voice_v1_sametgo",
+    "type": "chat",
+    "src": "sounds/06-sametgo-phrases/chat_voice_v1_sametgo.mp3",
+    "duration": 1.72,
+    "phrase": "Samet Go, new message!",
+    "note": ""
+   },
+   {
+    "id": "06-sametgo-phrases/chat_voice_v2_sametgo",
+    "name": "chat_voice_v2_sametgo",
+    "type": "chat",
+    "src": "sounds/06-sametgo-phrases/chat_voice_v2_sametgo.mp3",
+    "duration": 1.75,
+    "phrase": "New message on Samet Go!",
+    "note": ""
+   },
+   {
+    "id": "06-sametgo-phrases/chat_voice_v3_sametgo",
+    "name": "chat_voice_v3_sametgo",
+    "type": "chat",
+    "src": "sounds/06-sametgo-phrases/chat_voice_v3_sametgo.mp3",
+    "duration": 2.14,
+    "phrase": "Samet Go! You've got a message!",
+    "note": ""
+   },
+   {
+    "id": "06-sametgo-phrases/booking_voice_v1_sametgo",
+    "name": "booking_voice_v1_sametgo",
+    "type": "booking",
+    "src": "sounds/06-sametgo-phrases/booking_voice_v1_sametgo.mp3",
+    "duration": 1.62,
+    "phrase": "Samet Go, new booking!",
+    "note": ""
+   },
+   {
+    "id": "06-sametgo-phrases/booking_voice_v2_sametgo",
+    "name": "booking_voice_v2_sametgo",
+    "type": "booking",
+    "src": "sounds/06-sametgo-phrases/booking_voice_v2_sametgo.mp3",
+    "duration": 1.67,
+    "phrase": "New booking on Samet Go!",
+    "note": ""
+   },
+   {
+    "id": "06-sametgo-phrases/booking_voice_v3_sametgo",
+    "name": "booking_voice_v3_sametgo",
+    "type": "booking",
+    "src": "sounds/06-sametgo-phrases/booking_voice_v3_sametgo.mp3",
+    "duration": 2.09,
+    "phrase": "Samet Go! Booking confirmed!",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "07-sametgo-only",
+  "title": "Samet Go only",
+  "description": "พูดแค่ \"Samet Go!\" คำเดียว",
+  "sounds": [
+   {
+    "id": "07-sametgo-only/chat_v1_sametgo",
+    "name": "chat_v1_sametgo",
+    "type": "chat",
+    "src": "sounds/07-sametgo-only/chat_v1_sametgo.mp3",
+    "duration": 1.1,
+    "phrase": "Samet Go!",
+    "note": ""
+   },
+   {
+    "id": "07-sametgo-only/chat_v2_sametgo",
+    "name": "chat_v2_sametgo",
+    "type": "chat",
+    "src": "sounds/07-sametgo-only/chat_v2_sametgo.mp3",
+    "duration": 1.1,
+    "phrase": "Samet Go!",
+    "note": ""
+   },
+   {
+    "id": "07-sametgo-only/chat_v3_sametgo",
+    "name": "chat_v3_sametgo",
+    "type": "chat",
+    "src": "sounds/07-sametgo-only/chat_v3_sametgo.mp3",
+    "duration": 1.1,
+    "phrase": "Samet Go!",
+    "note": ""
+   },
+   {
+    "id": "07-sametgo-only/booking_v1_sametgo",
+    "name": "booking_v1_sametgo",
+    "type": "booking",
+    "src": "sounds/07-sametgo-only/booking_v1_sametgo.mp3",
+    "duration": 1.1,
+    "phrase": "Samet Go!",
+    "note": ""
+   },
+   {
+    "id": "07-sametgo-only/booking_v2_sametgo",
+    "name": "booking_v2_sametgo",
+    "type": "booking",
+    "src": "sounds/07-sametgo-only/booking_v2_sametgo.mp3",
+    "duration": 1.1,
+    "phrase": "Samet Go!",
+    "note": ""
+   },
+   {
+    "id": "07-sametgo-only/booking_v3_sametgo",
+    "name": "booking_v3_sametgo",
+    "type": "booking",
+    "src": "sounds/07-sametgo-only/booking_v3_sametgo.mp3",
+    "duration": 1.1,
+    "phrase": "Samet Go!",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "08-sametgo-hq-voice",
+  "title": "Samet Go · HQ voice",
+  "description": "เสียงพูดโมเดลคุณภาพสูง ผู้พูดหญิง 4 คน (A–D) ทำนองใหม่ v4–v7",
+  "sounds": [
+   {
+    "id": "08-sametgo-hq-voice/chat_v4_sametgo",
+    "name": "chat_v4_sametgo",
+    "type": "chat",
+    "src": "sounds/08-sametgo-hq-voice/chat_v4_sametgo.mp3",
+    "duration": 0.97,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด A"
+   },
+   {
+    "id": "08-sametgo-hq-voice/chat_v5_sametgo",
+    "name": "chat_v5_sametgo",
+    "type": "chat",
+    "src": "sounds/08-sametgo-hq-voice/chat_v5_sametgo.mp3",
+    "duration": 1.07,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด B"
+   },
+   {
+    "id": "08-sametgo-hq-voice/chat_v6_sametgo",
+    "name": "chat_v6_sametgo",
+    "type": "chat",
+    "src": "sounds/08-sametgo-hq-voice/chat_v6_sametgo.mp3",
+    "duration": 0.99,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด C"
+   },
+   {
+    "id": "08-sametgo-hq-voice/chat_v7_sametgo",
+    "name": "chat_v7_sametgo",
+    "type": "chat",
+    "src": "sounds/08-sametgo-hq-voice/chat_v7_sametgo.mp3",
+    "duration": 1.12,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด D"
+   },
+   {
+    "id": "08-sametgo-hq-voice/booking_v4_sametgo",
+    "name": "booking_v4_sametgo",
+    "type": "booking",
+    "src": "sounds/08-sametgo-hq-voice/booking_v4_sametgo.mp3",
+    "duration": 0.97,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด A"
+   },
+   {
+    "id": "08-sametgo-hq-voice/booking_v5_sametgo",
+    "name": "booking_v5_sametgo",
+    "type": "booking",
+    "src": "sounds/08-sametgo-hq-voice/booking_v5_sametgo.mp3",
+    "duration": 1.07,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด B"
+   },
+   {
+    "id": "08-sametgo-hq-voice/booking_v6_sametgo",
+    "name": "booking_v6_sametgo",
+    "type": "booking",
+    "src": "sounds/08-sametgo-hq-voice/booking_v6_sametgo.mp3",
+    "duration": 0.99,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด C"
+   },
+   {
+    "id": "08-sametgo-hq-voice/booking_v7_sametgo",
+    "name": "booking_v7_sametgo",
+    "type": "booking",
+    "src": "sounds/08-sametgo-hq-voice/booking_v7_sametgo.mp3",
+    "duration": 1.12,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด D"
+   }
+  ]
+ }
+]
