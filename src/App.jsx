@@ -3,26 +3,14 @@ import manifest from './manifest.json'
 
 const TYPE_LABEL = { chat: 'แชท', booking: 'จอง' }
 const TYPE_COLOR = { chat: 'var(--color-ocean)', booking: 'var(--color-coral)' }
-const FAV_KEY = 'sametgo-sound-favs'
-
-function loadFavs() {
-  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')) } catch { return new Set() }
-}
-
 export default function App() {
   const [type, setType] = useState('all')
   const [query, setQuery] = useState('')
   const [volume, setVolume] = useState(0.8)
-  const [onlyFavs, setOnlyFavs] = useState(false)
-  const [favs, setFavs] = useState(loadFavs)
   const [playing, setPlaying] = useState(null) // sound id
   const [progress, setProgress] = useState(0)
   const audioRef = useRef(null)
   const queueRef = useRef([])
-
-  useEffect(() => {
-    localStorage.setItem(FAV_KEY, JSON.stringify([...favs]))
-  }, [favs])
 
   useEffect(() => {
     if (audioRef.current) audioRef.current.volume = volume
@@ -60,10 +48,6 @@ export default function App() {
     play(first)
   }
 
-  const toggleFav = (id) => setFavs((s) => {
-    const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n
-  })
-
   const visibleSets = useMemo(() => {
     const q = query.trim().toLowerCase()
     return manifest
@@ -71,12 +55,11 @@ export default function App() {
         ...set,
         sounds: set.sounds.filter((s) =>
           (type === 'all' || s.type === type) &&
-          (!onlyFavs || favs.has(s.id)) &&
           (!q || s.name.toLowerCase().includes(q) || s.phrase.toLowerCase().includes(q) || set.title.toLowerCase().includes(q)),
         ),
       }))
       .filter((set) => set.sounds.length)
-  }, [type, query, onlyFavs, favs])
+  }, [type, query])
 
   const total = manifest.reduce((n, s) => n + s.sounds.length, 0)
   const shown = visibleSets.reduce((n, s) => n + s.sounds.length, 0)
@@ -110,10 +93,6 @@ export default function App() {
                 </button>
               ))}
             </div>
-            <button onClick={() => setOnlyFavs((v) => !v)}
-              className={`rounded-full border px-4 py-1.5 text-sm font-bold transition-colors ${onlyFavs ? 'border-emerald-brand bg-emerald-brand text-white' : 'border-sea-100 bg-white hover:bg-sea-50'}`}>
-              ★ ที่ชอบ ({favs.size})
-            </button>
             <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="ค้นหาชื่อไฟล์ / คำพูด"
               className="w-44 rounded-full border border-sea-100 bg-white px-4 py-1.5 text-sm outline-none focus:ring-2 focus:ring-emerald-brand" />
             <label className="flex items-center gap-2 text-sm font-bold">
@@ -144,21 +123,21 @@ export default function App() {
             <ul className="overflow-hidden rounded-2xl bg-white shadow-[0_1px_0_var(--color-sea-100)]">
               {set.sounds.map((s) => (
                 <SoundRow key={s.id} sound={s} active={playing === s.id} progress={playing === s.id ? progress : 0}
-                  fav={favs.has(s.id)} onPlay={() => (playing === s.id ? stop() : play(s))} onFav={() => toggleFav(s.id)} />
+                  onPlay={() => (playing === s.id ? stop() : play(s))} />
               ))}
             </ul>
           </section>
         ))}
 
         <footer className="mt-12 text-sm text-sea-700">
-          กด Space เพื่อหยุดเสียงที่กำลังเล่น · ดาวที่ติดไว้จะจำอยู่ในเบราว์เซอร์นี้ · ไฟล์ทั้งหมดอยู่ใน <code>public/sounds/</code>
+          กด Space เพื่อหยุดเสียงที่กำลังเล่น · ไฟล์ทั้งหมดอยู่ใน <code>public/sounds/</code>
         </footer>
       </main>
     </div>
   )
 }
 
-function SoundRow({ sound, active, progress, fav, onPlay, onFav }) {
+function SoundRow({ sound, active, progress, onPlay }) {
   const color = TYPE_COLOR[sound.type]
   const r = 18, c = 2 * Math.PI * r
   return (
@@ -190,10 +169,6 @@ function SoundRow({ sound, active, progress, fav, onPlay, onFav }) {
           </p>
         )}
       </div>
-
-      <button onClick={onFav} aria-pressed={fav} aria-label="ติดดาว"
-        className={`text-2xl leading-none transition-colors ${fav ? 'text-emerald-brand' : 'text-sea-100 hover:text-sea-700'}`}>★</button>
-      <a href={sound.src} download className="text-sm font-bold text-sea-700 hover:text-sea-900">ดาวน์โหลด</a>
     </li>
   )
 }

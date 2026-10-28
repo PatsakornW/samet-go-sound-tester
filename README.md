@@ -1,7 +1,7 @@
 # Samet Go · Sound Tester
 
 หน้าเว็บสำหรับทดสอบเสียงแจ้งเตือน (แชท / การจอง) ของแอป Samet Go
-ทั้งหมด 52 เสียง 8 ชุด — สร้างด้วย React + Vite + Tailwind CSS v4
+ทั้งหมด 62 เสียง 10 ชุด — สร้างด้วย React + Vite + Tailwind CSS v4
 
 ## รันบนเครื่อง
 

@@ -183,200 +183,60 @@
   ]
  },
  {
-  "id": "04-piano-voice",
-  "title": "Piano + voice",
-  "description": "เปียโนตามด้วยเสียงพูด (ชาย/หญิง) และตัวอย่างเสียงไทยแบบหุ่นยนต์",
-  "sounds": [
-   {
-    "id": "04-piano-voice/TH_sample_chat_robotvoice",
-    "name": "TH_sample_chat_robotvoice",
-    "type": "chat",
-    "src": "sounds/04-piano-voice/TH_sample_chat_robotvoice.mp3",
-    "duration": 2.19,
-    "phrase": "มีข้อความใหม่",
-    "note": "ตัวอย่างเท่านั้น (เสียงหุ่นยนต์)"
-   },
-   {
-    "id": "04-piano-voice/chat_voice_v1_newmessage",
-    "name": "chat_voice_v1_newmessage",
-    "type": "chat",
-    "src": "sounds/04-piano-voice/chat_voice_v1_newmessage.mp3",
-    "duration": 1.54,
-    "phrase": "New message",
-    "note": ""
-   },
-   {
-    "id": "04-piano-voice/chat_voice_v2_youhave",
-    "name": "chat_voice_v2_youhave",
-    "type": "chat",
-    "src": "sounds/04-piano-voice/chat_voice_v2_youhave.mp3",
-    "duration": 1.7,
-    "phrase": "You have a new message",
-    "note": ""
-   },
-   {
-    "id": "04-piano-voice/chat_voice_v3_soft",
-    "name": "chat_voice_v3_soft",
-    "type": "chat",
-    "src": "sounds/04-piano-voice/chat_voice_v3_soft.mp3",
-    "duration": 1.7,
-    "phrase": "New message",
-    "note": ""
-   },
-   {
-    "id": "04-piano-voice/TH_sample_booking_robotvoice",
-    "name": "TH_sample_booking_robotvoice",
-    "type": "booking",
-    "src": "sounds/04-piano-voice/TH_sample_booking_robotvoice.mp3",
-    "duration": 2.51,
-    "phrase": "มีการจองใหม่",
-    "note": "ตัวอย่างเท่านั้น (เสียงหุ่นยนต์)"
-   },
-   {
-    "id": "04-piano-voice/booking_voice_v1_newbooking",
-    "name": "booking_voice_v1_newbooking",
-    "type": "booking",
-    "src": "sounds/04-piano-voice/booking_voice_v1_newbooking.mp3",
-    "duration": 1.7,
-    "phrase": "New booking",
-    "note": ""
-   },
-   {
-    "id": "04-piano-voice/booking_voice_v2_youhave",
-    "name": "booking_voice_v2_youhave",
-    "type": "booking",
-    "src": "sounds/04-piano-voice/booking_voice_v2_youhave.mp3",
-    "duration": 1.91,
-    "phrase": "You have a new booking",
-    "note": ""
-   },
-   {
-    "id": "04-piano-voice/booking_voice_v3_confirmed",
-    "name": "booking_voice_v3_confirmed",
-    "type": "booking",
-    "src": "sounds/04-piano-voice/booking_voice_v3_confirmed.mp3",
-    "duration": 2.09,
-    "phrase": "Booking confirmed",
-    "note": ""
-   }
-  ]
- },
- {
-  "id": "05-piano-voice-bright",
-  "title": "Piano + bright female voice",
-  "description": "เสียงหญิง พูดเร็วและสดใส เริ่มพร้อมเปียโน",
-  "sounds": [
-   {
-    "id": "05-piano-voice-bright/chat_voice_v1_newmessage",
-    "name": "chat_voice_v1_newmessage",
-    "type": "chat",
-    "src": "sounds/05-piano-voice-bright/chat_voice_v1_newmessage.mp3",
-    "duration": 1.04,
-    "phrase": "New message!",
-    "note": ""
-   },
-   {
-    "id": "05-piano-voice-bright/chat_voice_v2_youhave",
-    "name": "chat_voice_v2_youhave",
-    "type": "chat",
-    "src": "sounds/05-piano-voice-bright/chat_voice_v2_youhave.mp3",
-    "duration": 1.41,
-    "phrase": "You have a new message!",
-    "note": ""
-   },
-   {
-    "id": "05-piano-voice-bright/chat_voice_v3_hey",
-    "name": "chat_voice_v3_hey",
-    "type": "chat",
-    "src": "sounds/05-piano-voice-bright/chat_voice_v3_hey.mp3",
-    "duration": 1.36,
-    "phrase": "Hey, new message!",
-    "note": ""
-   },
-   {
-    "id": "05-piano-voice-bright/booking_voice_v1_newbooking",
-    "name": "booking_voice_v1_newbooking",
-    "type": "booking",
-    "src": "sounds/05-piano-voice-bright/booking_voice_v1_newbooking.mp3",
-    "duration": 0.97,
-    "phrase": "New booking!",
-    "note": ""
-   },
-   {
-    "id": "05-piano-voice-bright/booking_voice_v2_youhave",
-    "name": "booking_voice_v2_youhave",
-    "type": "booking",
-    "src": "sounds/05-piano-voice-bright/booking_voice_v2_youhave.mp3",
-    "duration": 1.33,
-    "phrase": "You have a new message!",
-    "note": ""
-   },
-   {
-    "id": "05-piano-voice-bright/booking_voice_v3_confirmed",
-    "name": "booking_voice_v3_confirmed",
-    "type": "booking",
-    "src": "sounds/05-piano-voice-bright/booking_voice_v3_confirmed.mp3",
-    "duration": 1.23,
-    "phrase": "Booking confirmed!",
-    "note": ""
-   }
-  ]
- },
- {
-  "id": "06-sametgo-phrases",
+  "id": "04-sametgo-phrases",
   "title": "Samet Go phrases",
   "description": "ประโยคที่มีคำว่า Samet Go พร้อม ducking เปียโนตอนพูด",
   "sounds": [
    {
-    "id": "06-sametgo-phrases/chat_voice_v1_sametgo",
+    "id": "04-sametgo-phrases/chat_voice_v1_sametgo",
     "name": "chat_voice_v1_sametgo",
     "type": "chat",
-    "src": "sounds/06-sametgo-phrases/chat_voice_v1_sametgo.mp3",
+    "src": "sounds/04-sametgo-phrases/chat_voice_v1_sametgo.mp3",
     "duration": 1.72,
     "phrase": "Samet Go, new message!",
     "note": ""
    },
    {
-    "id": "06-sametgo-phrases/chat_voice_v2_sametgo",
+    "id": "04-sametgo-phrases/chat_voice_v2_sametgo",
     "name": "chat_voice_v2_sametgo",
     "type": "chat",
-    "src": "sounds/06-sametgo-phrases/chat_voice_v2_sametgo.mp3",
+    "src": "sounds/04-sametgo-phrases/chat_voice_v2_sametgo.mp3",
     "duration": 1.75,
     "phrase": "New message on Samet Go!",
     "note": ""
    },
    {
-    "id": "06-sametgo-phrases/chat_voice_v3_sametgo",
+    "id": "04-sametgo-phrases/chat_voice_v3_sametgo",
     "name": "chat_voice_v3_sametgo",
     "type": "chat",
-    "src": "sounds/06-sametgo-phrases/chat_voice_v3_sametgo.mp3",
+    "src": "sounds/04-sametgo-phrases/chat_voice_v3_sametgo.mp3",
     "duration": 2.14,
     "phrase": "Samet Go! You've got a message!",
     "note": ""
    },
    {
-    "id": "06-sametgo-phrases/booking_voice_v1_sametgo",
+    "id": "04-sametgo-phrases/booking_voice_v1_sametgo",
     "name": "booking_voice_v1_sametgo",
     "type": "booking",
-    "src": "sounds/06-sametgo-phrases/booking_voice_v1_sametgo.mp3",
+    "src": "sounds/04-sametgo-phrases/booking_voice_v1_sametgo.mp3",
     "duration": 1.62,
     "phrase": "Samet Go, new booking!",
     "note": ""
    },
    {
-    "id": "06-sametgo-phrases/booking_voice_v2_sametgo",
+    "id": "04-sametgo-phrases/booking_voice_v2_sametgo",
     "name": "booking_voice_v2_sametgo",
     "type": "booking",
-    "src": "sounds/06-sametgo-phrases/booking_voice_v2_sametgo.mp3",
+    "src": "sounds/04-sametgo-phrases/booking_voice_v2_sametgo.mp3",
     "duration": 1.67,
     "phrase": "New booking on Samet Go!",
     "note": ""
    },
    {
-    "id": "06-sametgo-phrases/booking_voice_v3_sametgo",
+    "id": "04-sametgo-phrases/booking_voice_v3_sametgo",
     "name": "booking_voice_v3_sametgo",
     "type": "booking",
-    "src": "sounds/06-sametgo-phrases/booking_voice_v3_sametgo.mp3",
+    "src": "sounds/04-sametgo-phrases/booking_voice_v3_sametgo.mp3",
     "duration": 2.09,
     "phrase": "Samet Go! Booking confirmed!",
     "note": ""
@@ -384,60 +244,60 @@
   ]
  },
  {
-  "id": "07-sametgo-only",
+  "id": "05-sametgo-only",
   "title": "Samet Go only",
   "description": "พูดแค่ \"Samet Go!\" คำเดียว",
   "sounds": [
    {
-    "id": "07-sametgo-only/chat_v1_sametgo",
+    "id": "05-sametgo-only/chat_v1_sametgo",
     "name": "chat_v1_sametgo",
     "type": "chat",
-    "src": "sounds/07-sametgo-only/chat_v1_sametgo.mp3",
+    "src": "sounds/05-sametgo-only/chat_v1_sametgo.mp3",
     "duration": 1.1,
     "phrase": "Samet Go!",
     "note": ""
    },
    {
-    "id": "07-sametgo-only/chat_v2_sametgo",
+    "id": "05-sametgo-only/chat_v2_sametgo",
     "name": "chat_v2_sametgo",
     "type": "chat",
-    "src": "sounds/07-sametgo-only/chat_v2_sametgo.mp3",
+    "src": "sounds/05-sametgo-only/chat_v2_sametgo.mp3",
     "duration": 1.1,
     "phrase": "Samet Go!",
     "note": ""
    },
    {
-    "id": "07-sametgo-only/chat_v3_sametgo",
+    "id": "05-sametgo-only/chat_v3_sametgo",
     "name": "chat_v3_sametgo",
     "type": "chat",
-    "src": "sounds/07-sametgo-only/chat_v3_sametgo.mp3",
+    "src": "sounds/05-sametgo-only/chat_v3_sametgo.mp3",
     "duration": 1.1,
     "phrase": "Samet Go!",
     "note": ""
    },
    {
-    "id": "07-sametgo-only/booking_v1_sametgo",
+    "id": "05-sametgo-only/booking_v1_sametgo",
     "name": "booking_v1_sametgo",
     "type": "booking",
-    "src": "sounds/07-sametgo-only/booking_v1_sametgo.mp3",
+    "src": "sounds/05-sametgo-only/booking_v1_sametgo.mp3",
     "duration": 1.1,
     "phrase": "Samet Go!",
     "note": ""
    },
    {
-    "id": "07-sametgo-only/booking_v2_sametgo",
+    "id": "05-sametgo-only/booking_v2_sametgo",
     "name": "booking_v2_sametgo",
     "type": "booking",
-    "src": "sounds/07-sametgo-only/booking_v2_sametgo.mp3",
+    "src": "sounds/05-sametgo-only/booking_v2_sametgo.mp3",
     "duration": 1.1,
     "phrase": "Samet Go!",
     "note": ""
    },
    {
-    "id": "07-sametgo-only/booking_v3_sametgo",
+    "id": "05-sametgo-only/booking_v3_sametgo",
     "name": "booking_v3_sametgo",
     "type": "booking",
-    "src": "sounds/07-sametgo-only/booking_v3_sametgo.mp3",
+    "src": "sounds/05-sametgo-only/booking_v3_sametgo.mp3",
     "duration": 1.1,
     "phrase": "Samet Go!",
     "note": ""
@@ -445,81 +305,325 @@
   ]
  },
  {
-  "id": "08-sametgo-hq-voice",
+  "id": "06-sametgo-hq-voice",
   "title": "Samet Go · HQ voice",
-  "description": "เสียงพูดโมเดลคุณภาพสูง ผู้พูดหญิง 4 คน (A–D) ทำนองใหม่ v4–v7",
+  "description": "เสียงพูดโมเดลคุณภาพสูง ผู้พูดหญิง 4 คน (A–D) ทำนองใหม่ 4 แบบ",
   "sounds": [
    {
-    "id": "08-sametgo-hq-voice/chat_v4_sametgo",
+    "id": "06-sametgo-hq-voice/chat_v1_sametgo",
+    "name": "chat_v1_sametgo",
+    "type": "chat",
+    "src": "sounds/06-sametgo-hq-voice/chat_v1_sametgo.mp3",
+    "duration": 0.97,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด A"
+   },
+   {
+    "id": "06-sametgo-hq-voice/chat_v2_sametgo",
+    "name": "chat_v2_sametgo",
+    "type": "chat",
+    "src": "sounds/06-sametgo-hq-voice/chat_v2_sametgo.mp3",
+    "duration": 1.07,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด B"
+   },
+   {
+    "id": "06-sametgo-hq-voice/chat_v3_sametgo",
+    "name": "chat_v3_sametgo",
+    "type": "chat",
+    "src": "sounds/06-sametgo-hq-voice/chat_v3_sametgo.mp3",
+    "duration": 0.99,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด C"
+   },
+   {
+    "id": "06-sametgo-hq-voice/chat_v4_sametgo",
     "name": "chat_v4_sametgo",
     "type": "chat",
-    "src": "sounds/08-sametgo-hq-voice/chat_v4_sametgo.mp3",
-    "duration": 0.97,
-    "phrase": "Samet Go!",
-    "note": "ผู้พูด A"
-   },
-   {
-    "id": "08-sametgo-hq-voice/chat_v5_sametgo",
-    "name": "chat_v5_sametgo",
-    "type": "chat",
-    "src": "sounds/08-sametgo-hq-voice/chat_v5_sametgo.mp3",
-    "duration": 1.07,
-    "phrase": "Samet Go!",
-    "note": "ผู้พูด B"
-   },
-   {
-    "id": "08-sametgo-hq-voice/chat_v6_sametgo",
-    "name": "chat_v6_sametgo",
-    "type": "chat",
-    "src": "sounds/08-sametgo-hq-voice/chat_v6_sametgo.mp3",
-    "duration": 0.99,
-    "phrase": "Samet Go!",
-    "note": "ผู้พูด C"
-   },
-   {
-    "id": "08-sametgo-hq-voice/chat_v7_sametgo",
-    "name": "chat_v7_sametgo",
-    "type": "chat",
-    "src": "sounds/08-sametgo-hq-voice/chat_v7_sametgo.mp3",
+    "src": "sounds/06-sametgo-hq-voice/chat_v4_sametgo.mp3",
     "duration": 1.12,
     "phrase": "Samet Go!",
     "note": "ผู้พูด D"
    },
    {
-    "id": "08-sametgo-hq-voice/booking_v4_sametgo",
+    "id": "06-sametgo-hq-voice/booking_v1_sametgo",
+    "name": "booking_v1_sametgo",
+    "type": "booking",
+    "src": "sounds/06-sametgo-hq-voice/booking_v1_sametgo.mp3",
+    "duration": 0.97,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด A"
+   },
+   {
+    "id": "06-sametgo-hq-voice/booking_v2_sametgo",
+    "name": "booking_v2_sametgo",
+    "type": "booking",
+    "src": "sounds/06-sametgo-hq-voice/booking_v2_sametgo.mp3",
+    "duration": 1.07,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด B"
+   },
+   {
+    "id": "06-sametgo-hq-voice/booking_v3_sametgo",
+    "name": "booking_v3_sametgo",
+    "type": "booking",
+    "src": "sounds/06-sametgo-hq-voice/booking_v3_sametgo.mp3",
+    "duration": 0.99,
+    "phrase": "Samet Go!",
+    "note": "ผู้พูด C"
+   },
+   {
+    "id": "06-sametgo-hq-voice/booking_v4_sametgo",
     "name": "booking_v4_sametgo",
     "type": "booking",
-    "src": "sounds/08-sametgo-hq-voice/booking_v4_sametgo.mp3",
-    "duration": 0.97,
-    "phrase": "Samet Go!",
-    "note": "ผู้พูด A"
-   },
-   {
-    "id": "08-sametgo-hq-voice/booking_v5_sametgo",
-    "name": "booking_v5_sametgo",
-    "type": "booking",
-    "src": "sounds/08-sametgo-hq-voice/booking_v5_sametgo.mp3",
-    "duration": 1.07,
-    "phrase": "Samet Go!",
-    "note": "ผู้พูด B"
-   },
-   {
-    "id": "08-sametgo-hq-voice/booking_v6_sametgo",
-    "name": "booking_v6_sametgo",
-    "type": "booking",
-    "src": "sounds/08-sametgo-hq-voice/booking_v6_sametgo.mp3",
-    "duration": 0.99,
-    "phrase": "Samet Go!",
-    "note": "ผู้พูด C"
-   },
-   {
-    "id": "08-sametgo-hq-voice/booking_v7_sametgo",
-    "name": "booking_v7_sametgo",
-    "type": "booking",
-    "src": "sounds/08-sametgo-hq-voice/booking_v7_sametgo.mp3",
+    "src": "sounds/06-sametgo-hq-voice/booking_v4_sametgo.mp3",
     "duration": 1.12,
     "phrase": "Samet Go!",
     "note": "ผู้พูด D"
+   }
+  ]
+ },
+ {
+  "id": "07-chime",
+  "title": "Chime (no voice)",
+  "description": "เสียงสังเคราะห์ล้วน ไม่มีคำพูด — มาริมบา แก้ว ระฆัง ฮาร์ป",
+  "sounds": [
+   {
+    "id": "07-chime/chat_v1_marimba",
+    "name": "chat_v1_marimba",
+    "type": "chat",
+    "src": "sounds/07-chime/chat_v1_marimba.mp3",
+    "duration": 1.21,
+    "phrase": "",
+    "note": "มาริมบา 2 โน้ต สั้น นุ่ม"
+   },
+   {
+    "id": "07-chime/chat_v2_glass",
+    "name": "chat_v2_glass",
+    "type": "chat",
+    "src": "sounds/07-chime/chat_v2_glass.mp3",
+    "duration": 1.33,
+    "phrase": "",
+    "note": "แก้วใส โน้ตเดียว ค่อย ๆ จาง"
+   },
+   {
+    "id": "07-chime/chat_v3_bloop",
+    "name": "chat_v3_bloop",
+    "type": "chat",
+    "src": "sounds/07-chime/chat_v3_bloop.mp3",
+    "duration": 0.96,
+    "phrase": "",
+    "note": "ฟองน้ำเด้ง 2 ครั้ง ขี้เล่น"
+   },
+   {
+    "id": "07-chime/booking_v1_bells",
+    "name": "booking_v1_bells",
+    "type": "booking",
+    "src": "sounds/07-chime/booking_v1_bells.mp3",
+    "duration": 2.43,
+    "phrase": "",
+    "note": "ระฆัง 3 โน้ตขึ้น จบด้วยโน้ตสูงค้าง"
+   },
+   {
+    "id": "07-chime/booking_v2_harp",
+    "name": "booking_v2_harp",
+    "type": "booking",
+    "src": "sounds/07-chime/booking_v2_harp.mp3",
+    "duration": 2.37,
+    "phrase": "",
+    "note": "ฮาร์ปกวาดขึ้น 5 โน้ต ปิดด้วยคอร์ด"
+   },
+   {
+    "id": "07-chime/booking_v3_tada",
+    "name": "booking_v3_tada",
+    "type": "booking",
+    "src": "sounds/07-chime/booking_v3_tada.mp3",
+    "duration": 2.21,
+    "phrase": "",
+    "note": "ทา-ดา! สองจังหวะ มีแพดรองใต้"
+   }
+  ]
+ },
+ {
+  "id": "08-island",
+  "title": "Island · sea & sky",
+  "description": "แนวทะเลและท้องฟ้า ไม่มีคำพูด — หยดน้ำ คาลิมบา ลมทะเล สตีลแพน พระอาทิตย์ขึ้น อูคูเลเล่",
+  "sounds": [
+   {
+    "id": "08-island/chat_v1_droplet",
+    "name": "chat_v1_droplet",
+    "type": "chat",
+    "src": "sounds/08-island/chat_v1_droplet.mp3",
+    "duration": 0.82,
+    "phrase": "",
+    "note": "หยดน้ำตกลงผิวน้ำ 2 หยด มีเสียงสะท้อน"
+   },
+   {
+    "id": "08-island/chat_v2_kalimba",
+    "name": "chat_v2_kalimba",
+    "type": "chat",
+    "src": "sounds/08-island/chat_v2_kalimba.mp3",
+    "duration": 1.61,
+    "phrase": "",
+    "note": "คาลิมบา 2 โน้ต โทนเขตร้อน"
+   },
+   {
+    "id": "08-island/chat_v3_breeze",
+    "name": "chat_v3_breeze",
+    "type": "chat",
+    "src": "sounds/08-island/chat_v3_breeze.mp3",
+    "duration": 1.95,
+    "phrase": "",
+    "note": "ลมทะเลพัดเบา ๆ ตามด้วยโน้ตขลุ่ยนุ่ม"
+   },
+   {
+    "id": "08-island/booking_v1_steelpan",
+    "name": "booking_v1_steelpan",
+    "type": "booking",
+    "src": "sounds/08-island/booking_v1_steelpan.mp3",
+    "duration": 2.5,
+    "phrase": "",
+    "note": "สตีลแพน 4 โน้ตขึ้น พร้อมคลื่นซัดฝั่งเบา ๆ"
+   },
+   {
+    "id": "08-island/booking_v2_sunrise",
+    "name": "booking_v2_sunrise",
+    "type": "booking",
+    "src": "sounds/08-island/booking_v2_sunrise.mp3",
+    "duration": 2.52,
+    "phrase": "",
+    "note": "แพดคอร์ดค่อย ๆ สว่าง มีระฆังเล็กประกายบนฟ้า"
+   },
+   {
+    "id": "08-island/booking_v3_ukulele",
+    "name": "booking_v3_ukulele",
+    "type": "booking",
+    "src": "sounds/08-island/booking_v3_ukulele.mp3",
+    "duration": 2.58,
+    "phrase": "",
+    "note": "อูคูเลเล่ตี 3 คอร์ด C - F - C สไตล์เกาะ"
+   }
+  ]
+ },
+ {
+  "id": "09-island-sametgo",
+  "title": "Island + Samet Go",
+  "description": "ดนตรีแนวทะเลกับเสียงพูด \"Samet Go!\" ขึ้นพร้อมกัน ดนตรีนำหน้านิดเดียว (ลดเสียงดนตรีลงเล็กน้อยตอนพูด) ผู้พูดหญิง A–C",
+  "sounds": [
+   {
+    "id": "09-island-sametgo/chat_v1_droplet_sametgo",
+    "name": "chat_v1_droplet_sametgo",
+    "type": "chat",
+    "src": "sounds/09-island-sametgo/chat_v1_droplet_sametgo.mp3",
+    "duration": 1.02,
+    "phrase": "Samet Go!",
+    "note": "หยดน้ำ 2 หยด แล้วพูด Samet Go · ผู้พูด A"
+   },
+   {
+    "id": "09-island-sametgo/chat_v2_kalimba_sametgo",
+    "name": "chat_v2_kalimba_sametgo",
+    "type": "chat",
+    "src": "sounds/09-island-sametgo/chat_v2_kalimba_sametgo.mp3",
+    "duration": 1.56,
+    "phrase": "Samet Go!",
+    "note": "คาลิมบา 2 โน้ต แล้วพูด Samet Go · ผู้พูด B"
+   },
+   {
+    "id": "09-island-sametgo/chat_v3_breeze_sametgo",
+    "name": "chat_v3_breeze_sametgo",
+    "type": "chat",
+    "src": "sounds/09-island-sametgo/chat_v3_breeze_sametgo.mp3",
+    "duration": 1.81,
+    "phrase": "Samet Go!",
+    "note": "ลมทะเล + ขลุ่ย แล้วพูด Samet Go · ผู้พูด C"
+   },
+   {
+    "id": "09-island-sametgo/booking_v1_steelpan_sametgo",
+    "name": "booking_v1_steelpan_sametgo",
+    "type": "booking",
+    "src": "sounds/09-island-sametgo/booking_v1_steelpan_sametgo.mp3",
+    "duration": 2.41,
+    "phrase": "Samet Go!",
+    "note": "สตีลแพน 4 โน้ต + คลื่น แล้วพูด Samet Go · ผู้พูด A"
+   },
+   {
+    "id": "09-island-sametgo/booking_v2_sunrise_sametgo",
+    "name": "booking_v2_sunrise_sametgo",
+    "type": "booking",
+    "src": "sounds/09-island-sametgo/booking_v2_sunrise_sametgo.mp3",
+    "duration": 3.15,
+    "phrase": "Samet Go!",
+    "note": "แพดพระอาทิตย์ขึ้น + ระฆังเล็ก แล้วพูด Samet Go · ผู้พูด B"
+   },
+   {
+    "id": "09-island-sametgo/booking_v3_ukulele_sametgo",
+    "name": "booking_v3_ukulele_sametgo",
+    "type": "booking",
+    "src": "sounds/09-island-sametgo/booking_v3_ukulele_sametgo.mp3",
+    "duration": 2.58,
+    "phrase": "Samet Go!",
+    "note": "อูคูเลเล่ 3 คอร์ด แล้วพูด Samet Go · ผู้พูด C"
+   }
+  ]
+ },
+ {
+  "id": "10-sametgo-island",
+  "title": "Samet Go + Island",
+  "description": "เสียงพูด \"Samet Go!\" ขึ้นพร้อมดนตรี เสียงพูดนำหน้านิดเดียว แล้วเครื่องดนตรีแนวทะเลรับช่วงท้าย (ลดเสียงดนตรีลงเล็กน้อยตอนพูด) ผู้พูดหญิง D–F",
+  "sounds": [
+   {
+    "id": "10-sametgo-island/chat_v1_sametgo_droplet",
+    "name": "chat_v1_sametgo_droplet",
+    "type": "chat",
+    "src": "sounds/10-sametgo-island/chat_v1_sametgo_droplet.mp3",
+    "duration": 1.44,
+    "phrase": "Samet Go!",
+    "note": "พูด Samet Go แล้วหยดน้ำตอบ · ผู้พูด D"
+   },
+   {
+    "id": "10-sametgo-island/chat_v2_sametgo_kalimba",
+    "name": "chat_v2_sametgo_kalimba",
+    "type": "chat",
+    "src": "sounds/10-sametgo-island/chat_v2_sametgo_kalimba.mp3",
+    "duration": 2.14,
+    "phrase": "Samet Go!",
+    "note": "พูด Samet Go แล้วคาลิมบาตอบ · ผู้พูด E"
+   },
+   {
+    "id": "10-sametgo-island/chat_v3_sametgo_breeze",
+    "name": "chat_v3_sametgo_breeze",
+    "type": "chat",
+    "src": "sounds/10-sametgo-island/chat_v3_sametgo_breeze.mp3",
+    "duration": 2.48,
+    "phrase": "Samet Go!",
+    "note": "ลมทะเลรองใต้ พูด Samet Go แล้วขลุ่ยตอบ · ผู้พูด F"
+   },
+   {
+    "id": "10-sametgo-island/booking_v1_sametgo_steelpan",
+    "name": "booking_v1_sametgo_steelpan",
+    "type": "booking",
+    "src": "sounds/10-sametgo-island/booking_v1_sametgo_steelpan.mp3",
+    "duration": 2.58,
+    "phrase": "Samet Go!",
+    "note": "พูด Samet Go แล้วสตีลแพน 4 โน้ตขึ้น มีคลื่นรองใต้ · ผู้พูด D"
+   },
+   {
+    "id": "10-sametgo-island/booking_v2_sametgo_sunrise",
+    "name": "booking_v2_sametgo_sunrise",
+    "type": "booking",
+    "src": "sounds/10-sametgo-island/booking_v2_sametgo_sunrise.mp3",
+    "duration": 3.78,
+    "phrase": "Samet Go!",
+    "note": "แพดรองใต้ พูด Samet Go แล้วระฆังเล็กประกายขึ้นฟ้า · ผู้พูด E"
+   },
+   {
+    "id": "10-sametgo-island/booking_v3_sametgo_ukulele",
+    "name": "booking_v3_sametgo_ukulele",
+    "type": "booking",
+    "src": "sounds/10-sametgo-island/booking_v3_sametgo_ukulele.mp3",
+    "duration": 2.85,
+    "phrase": "Samet Go!",
+    "note": "อูคูเลเล่ตี 1 ที พูด Samet Go แล้วตีปิด 2 ที · ผู้พูด F"
    }
   ]
  }
