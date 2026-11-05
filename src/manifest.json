@@ -1480,5 +1480,93 @@
     "note": "อาร์เปจโจขึ้นเร็ว 5 โน้ต มีประกายสูง จบด้วยคอร์ด · ผู้พูด F"
    }
   ]
+ },
+ {
+  "id": "25-booking-success",
+  "title": "Booking success",
+  "description": "ประโยคแจ้งจองสำเร็จที่มีคำว่า Samet Go 9 แบบ",
+  "sounds": [
+   {
+    "id": "25-booking-success/booking_success_v1_sametgo",
+    "name": "booking_success_v1_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v1_sametgo.mp3",
+    "duration": 2.45,
+    "phrase": "Samet Go. Booking successful.",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v2_sametgo",
+    "name": "booking_success_v2_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v2_sametgo.mp3",
+    "duration": 2.51,
+    "phrase": "Your booking is confirmed on Samet Go.",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v3_sametgo",
+    "name": "booking_success_v3_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v3_sametgo.mp3",
+    "duration": 2.02,
+    "phrase": "Samet Go. Booking complete.",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v4_sametgo",
+    "name": "booking_success_v4_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v4_sametgo.mp3",
+    "duration": 2.69,
+    "phrase": "Samet Go! Your booking is complete.",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v5_sametgo",
+    "name": "booking_success_v5_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v5_sametgo.mp3",
+    "duration": 2.2,
+    "phrase": "Booking successful on Samet Go.",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v6_sametgo",
+    "name": "booking_success_v6_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v6_sametgo.mp3",
+    "duration": 2.98,
+    "phrase": "Samet Go! Booking confirmed. See you soon.",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v7_sametgo",
+    "name": "booking_success_v7_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v7_sametgo.mp3",
+    "duration": 2.95,
+    "phrase": "All set. Booking confirmed on Samet Go.",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v8_sametgo",
+    "name": "booking_success_v8_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v8_sametgo.mp3",
+    "duration": 2.24,
+    "phrase": "Samet Go! Booking success!",
+    "note": ""
+   },
+   {
+    "id": "25-booking-success/booking_success_v9_sametgo",
+    "name": "booking_success_v9_sametgo",
+    "type": "booking",
+    "src": "sounds/25-booking-success/booking_success_v9_sametgo.mp3",
+    "duration": 2.98,
+    "phrase": "Thank you. Your Samet Go booking is confirmed.",
+    "note": ""
+   }
+  ]
  }
 ]
